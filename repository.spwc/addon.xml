@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.spwc" name="Sean-Pauls Repository" version="1.0" provider-name="Sean-Paul">
+    <extension point="xbmc.addon.repository" name="Sean-Pauls Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/spwc/repo/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/spwc/repo/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/spwc/repo/master/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Sean-Pauls Repository</summary>
+        <description>Use at your ownn descretion</description>
+        <disclaimer>Addons to update Kodi</disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
