@@ -20,6 +20,40 @@
     </extension>
 </addon>
 
+<addon id="plugin.program.sptoolbox" name="TOOLBOX" version="1.0.8" provider-name="SEAN-PAUL">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.requests"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">This toolbox will update your kodi layout, settings and addons.</summary>
+		<description lang="en_GB">Kodi Toolbox</description>
+		<disclaimer lang="en_GB">Use at your own discretion.</disclaimer>
+		<language>en</language>
+		<platform>all</platform>
+		<license>GPL-2.0-or-later</license>
+		<forum></forum>
+		<website></website>
+		<email></email>
+		<source></source>
+		<news>1.0.3 - UPDATED -
+* Set TOOLBOX to save Real Debrid and Trakt by default
+* Snazzed up some words here and there
+		</news>
+		<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
+				<banner></banner>
+				<clearlogo></clearlogo>
+				<screenshot></screenshot>
+		</assets>
+	</extension>
+</addon>
+
 <addon
   id="skin.xonfluence"
   version="5"
