@@ -55,22 +55,6 @@
 	</extension>
 </addon>
 
-<addon id="script.umbrella.logout" version="1.0.2" name="Logout Helper" provider-name="Community">
-    <requires>
-        <import addon="xbmc.python" version="3.0.0"/>
-    </requires>
-    <extension point="xbmc.python.script" library="default.py">
-        <provides>executable</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        **Summary:**
-Umbrella + ResolveURL Logout Tool
-        <description>One-click logout for Real-Debrid and Trakt</description>
-        <platform>all</platform>
-    </extension>
-</addon>
-
-
 <addon
   id="skin.xonfluence"
   version="5"
