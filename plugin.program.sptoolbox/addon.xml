@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.sptoolbox" name="TOOLBOX" version="1.0.8" provider-name="SEAN-PAUL">
+<addon id="plugin.program.sptoolbox" name="TOOLBOX" version="1.0.9" provider-name="SEAN-PAUL">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.requests"/>
@@ -19,7 +19,8 @@
 		<website></website> 
 		<email></email>
 		<source></source>
-		<news>1.0.3 - UPDATED -
+		<news>1.0.9 - UPDATED -
+* UPDATED ON MAY 6TH
 * Set TOOLBOX to save Real Debrid and Trakt by default
 * Snazzed up some words here and there
 		</news>
